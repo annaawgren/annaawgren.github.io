@@ -3,6 +3,9 @@ body {
 	background-color: pink;
 }
 
+a {text-decoration-style: none;
+}
+
 .header { 
 	background-color: pink;
 	margin-left: 20px;
@@ -32,8 +35,6 @@ body {
 
 .headline-img {
 	display: block;
-	margin-top: 20px;
-	margin-bottom: 20px;
     text-align: left;
     max-width: 250px;
     height: auto;
@@ -67,7 +68,7 @@ body {
     border: none;
     color: white;
     padding: 15px 32px;
-    margin-bottom: 80px;
+    margin-bottom: 40px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -83,12 +84,18 @@ body {
     color: white;
 }
 
+.last-button {
+	margin-bottom: 120px;
+}
+
+
 article {
 	float: left;
 	float: left;
     width: 100%;
     margin: 20px;
 }
+
 
 h3 { 
 	color: black; 
@@ -146,6 +153,7 @@ h5 {
 	line-height: 22px;
 	margin-bottom: 50px;
 	}
+
 h3 { 
 	color: black; 
 	text-align: left;
